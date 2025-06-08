@@ -1,5 +1,14 @@
 # Kratos Project Template
 
+## 项目介绍
+基于go-kratos的评价评论系统，整个评价服务包含C端、B端和O端三部分，涉及C端用户发表评价，O端运营审核评价以及B端商家查看/回复评价等主要业务流程。
+该部分为一个独立的微服务中台项目。
+其他端详见go_kratos_review_o;go_kratos_review_b;go_kratos_review_task
+
+## review-service端
+![image](https://github.com/user-attachments/assets/7bdcdfc2-ced3-4144-b105-f4555db6de0e)
+
+
 ## Install Kratos
 ```
 go install github.com/go-kratos/kratos/cmd/kratos/v2@latest
